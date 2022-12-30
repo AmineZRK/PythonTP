@@ -2,12 +2,13 @@ import pandas as pd
 import os
 
 
-
+#fonction pour afficher les personne
 def Get():
     data = pd.read_csv (r'em.csv')   
     dt = pd.DataFrame(data, columns= ['nom','prenom','age','ville'])
     print(dt)
 
+#fonction 
 def checkexist(data):
     mydata = pd.read_csv (r'em.csv')   
     # df = pd.DataFrame(mydata, columns= ['nom'])
