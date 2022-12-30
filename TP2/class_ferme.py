@@ -3,7 +3,6 @@ from class_chien import Chien
 from class_chat import Chat
 from utils import *
 class Ferme():
-     #Initialisation de notre class
      animaux=[]
      def __init__(self):
           print("ANIMAUX DE LA FERME")
@@ -31,7 +30,6 @@ class Ferme():
           return f'Ma ferme a {len(self.animaux)} animaux'
                
          
-#print("LANCEMENT DU PROGRAMME...")
 
 #CREATION DE NOS OBJETS
 f1 = Ferme()
